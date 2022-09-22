@@ -1,0 +1,28 @@
+@media (max-width: 851px){
+  .main-contaner-cats__article{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .main-contaner-cats__article img{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+  .main-contaner-cats__article button{
+    margin: 5px 0 10px 0;
+  }
+  .uploadCats{
+    display: grid;
+    justify-items: center;
+  }
+  .uploadCats form{
+    display: grid;
+    justify-items: center;
+  }
+  .section-favorites-cats{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-items: center;
+  }
+}
